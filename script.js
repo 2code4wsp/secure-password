@@ -21,11 +21,12 @@ function writePassword() {
 }
 function generatePassword() {
   charCodes = [];
+  alert("Password must be between 8-128 characters in length");
   characterNum = prompt("How many characters in the password");
   console.log(characterNum)
  
-  //alert("Password must be between 8-128 characters in length");
-   // }
+  
+  
   let useUpperCase = confirm("do you want to use uppercase characters in your password? Press cancel for no.");
  console.log("use upper case", useUpperCase)
  if (useUpperCase) {
